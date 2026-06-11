@@ -279,7 +279,18 @@
     "nextRank": "Siguiente: {title} ({xp} XP restantes)",
     "maxRank": "Rango máximo alcanzado!",
     "keepCooking": "Sigue cocinando para alcanzar {title}!",
-    "highestRank": "Has alcanzado el rango más alto!"
+    "highestRank": "Has alcanzado el rango más alto!",
+    "groups": {
+      "spend": "Gasto",
+      "streak": "Rachas",
+      "rank": "Rango en la clasificación",
+      "days-active": "Días activos",
+      "daily-spend": "Gasto diario",
+      "daily-tokens": "Tokens diarios",
+      "monthly-spend": "Gasto mensual",
+      "monthly-days": "Actividad mensual",
+      "perfect-month": "Mes perfecto"
+    }
   },
   "timeAgo": {
     "justNow": "ahora mismo",
@@ -707,5 +718,31 @@
       "dismiss": "volver al reino de los mortales"
     },
     "shareText": "Día {streak}. El cangrejo ha evolucionado en mí. 🦀 Racha TRASCENDENTE en clawdboard — ¿sobrevivirás a la muda?"
+  },
+  "feedback": {
+    "button": "Feedback",
+    "title": "feedback",
+    "intro": "El feedback llega directamente al propietario - normalmente se implementa en 48 horas.",
+    "messagePlaceholder": "Qué tienes en mente? Reportes de bugs, ideas de funciones, o simplemente saluda...",
+    "emailPlaceholder": "tu@email.com (opcional, para seguimiento)",
+    "cancel": "Cancelar",
+    "send": "Enviar feedback",
+    "sending": "Enviando...",
+    "success": "Gracias! Tu feedback ha sido recibido."
+  },
+  "recaps": {
+    "weekly": "Resumen semanal",
+    "monthly": "Resumen mensual",
+    "bannerReady": "Tu <highlight>{label}</highlight> está listo",
+    "hook": {
+      "dominated": "Dominaste.",
+      "podium": "Subiste al podio.",
+      "top10": "Entraste en el top 10.",
+      "climbed": "Subiste {count, plural, one {# puesto} other {# puestos}}.",
+      "reclaim": "Hora de recuperar tu puesto.",
+      "elite": "Top 10 %. Eres de la élite.",
+      "default": "Así es como quedaste.",
+      "tapToContinue": "toca para continuar"
+    }
   }
 }
