@@ -14,9 +14,12 @@ clawdboard/
 ├── cli/                    ← CLI package (npm: clawdboard)
 ├── opencode-plugin/        ← OpenCode plugin (npm: clawdboard-opencode)
 ├── messages/               ← i18n translation files (EN, FR, DE, ES)
-├── drizzle/                ← DB migrations
 └── docker-compose.yml      ← Local Postgres for dev
 ```
+
+DB schema is defined in Drizzle and pushed with `npm run db:push`; `drizzle.config.ts`
+sets `out: "./drizzle"` as the migration-generate target, but no migrations dir is
+committed (schema-push workflow). (Verified 2026-07-05.)
 
 ## Tech Stack
 
