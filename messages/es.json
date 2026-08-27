@@ -27,10 +27,14 @@
   },
   "common": {
     "skipToContent": "Ir al contenido",
-    "confirm": "Estás seguro?"
+    "confirm": "Estás seguro?",
+    "close": "Cerrar",
+    "copyCommand": "Copiar comando",
+    "moreInfo": "Más información"
   },
   "languageSwitcher": {
     "label": "Language",
+    "changeLanguage": "Cambiar de idioma",
     "en": "English",
     "fr": "Français",
     "de": "Deutsch",
@@ -108,6 +112,7 @@
     "refresh": "actualizar",
     "checking": "verificando…",
     "toSyncManually": "para sincronizar manualmente,",
+    "syncManually": "Sincronizar manualmente",
     "inYourTerminal": "en tu terminal",
     "user": "Usuario",
     "cost": "Costo",
@@ -165,7 +170,8 @@
     "noProfileRepo": "No tienes un README de perfil?",
     "createOne": "Crea uno en 30 segundos",
     "done": "Listo",
-    "close": "Cerrar"
+    "close": "Cerrar",
+    "goToStep": "Ir al paso {step}"
   },
   "profile": {
     "rank": "Posición global",
@@ -200,6 +206,7 @@
     "backToLeaderboard": "Volver a la clasificación",
     "teamNudge": "Compara tus estadísticas con compañeros de equipo.",
     "createOrJoin": "crear o unirse a un equipo",
+    "dismissTeamNudge": "Descartar la sugerencia de equipo",
     "joinHeadline": "¿Quieres ver tus propias estadísticas de codificación IA?",
     "joinDescription": "Rastrea tu uso, gana insignias y compite en la tabla de clasificación.",
     "joinSignIn": "Iniciar sesión con GitHub",
@@ -373,6 +380,9 @@
     "shareLink": "Compartir enlace",
     "searchClawdboard": "Buscar en Clawdboard",
     "searchPlaceholder": "Buscar por nombre de usuario o nombre...",
+    "searchUsersLabel": "Buscar usuarios por nombre de usuario o nombre",
+    "switchTeam": "Cambiar de equipo",
+    "projectUrl": "URL del proyecto",
     "inviteAction": "Invitar",
     "invited": "Invitado",
     "pending": "pendiente",
@@ -455,6 +465,7 @@
     "heroTitle": "Estadísticas de Uso de Codificación IA",
     "heroDescription": "Datos agregados en tiempo real de <strong>{totalUsers} desarrolladores</strong> que rastrean su uso de codificación IA en <link>clawdboard</link>. Todas las cifras de costo son estimaciones basadas en precios publicados de tokens API — no facturas reales. Los datos cubren todo el uso desde enero de 2024.",
     "lastUpdated": "Última actualización: {lastUpdated}",
+    "breadcrumbLabel": "Ruta de navegación",
     "refreshedHourly": "Actualizado cada hora",
     "apiAccessAvailable": "Acceso a API disponible",
     "overviewHeading": "Resumen de la comunidad",
@@ -530,6 +541,7 @@
     "heroTitle": "Comparación de herramientas de codificación IA",
     "heroDescription": "Comparación lado a lado del uso de {toolList} de <strong>{totalUsers} desarrolladores</strong> en <link>clawdboard</link>. Todos los costos son estimaciones basadas en conteos de tokens y precios API publicados.",
     "lastUpdated": "Última actualización: {lastUpdated}",
+    "breadcrumbLabel": "Ruta de navegación",
     "refreshedHourly": "Actualizado cada hora",
     "totalsHeading": "Totales de la comunidad",
     "totalsDescription": "Uso agregado de todas las herramientas de codificación IA rastreadas.",
@@ -602,6 +614,7 @@
     "breadcrumbHome": "clawdboard",
     "breadcrumbStats": "estadísticas",
     "heroTitle": "Estadísticas de uso de {modelName}",
+    "breadcrumbLabel": "Ruta de navegación",
     "heroDescription": "Datos de uso reales de <strong>{modelName}</strong> de <strong>{userCount} desarrolladores</strong> en <link>clawdboard</link>. {modelName} es {modelDescription}. Todos los costos son estimaciones basadas en conteos de tokens y precios API publicados de {provider}.",
     "lastUpdated": "Última actualización: {lastUpdated}",
     "refreshedHourly": "Actualizado cada hora",

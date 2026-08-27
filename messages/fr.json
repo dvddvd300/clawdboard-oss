@@ -27,10 +27,14 @@
   },
   "common": {
     "skipToContent": "Aller au contenu",
-    "confirm": "Êtes-vous sûr ?"
+    "confirm": "Êtes-vous sûr ?",
+    "close": "Fermer",
+    "copyCommand": "Copier la commande",
+    "moreInfo": "Plus d'informations"
   },
   "languageSwitcher": {
     "label": "Language",
+    "changeLanguage": "Changer de langue",
     "en": "English",
     "fr": "Français",
     "de": "Deutsch",
@@ -113,6 +117,7 @@
     "backToLeaderboard": "Retour au classement",
     "teamNudge": "Comparez vos statistiques avec vos coéquipiers.",
     "createOrJoin": "créer ou rejoindre une équipe",
+    "dismissTeamNudge": "Ignorer la suggestion d'équipe",
     "joinHeadline": "Envie de voir vos propres stats de codage IA ?",
     "joinDescription": "Suivez votre utilisation, gagnez des badges et rivalisez dans le classement.",
     "joinSignIn": "Se connecter avec GitHub",
@@ -221,6 +226,7 @@
     "refresh": "actualiser",
     "checking": "vérification…",
     "toSyncManually": "pour synchroniser manuellement,",
+    "syncManually": "Synchroniser manuellement",
     "inYourTerminal": "dans votre terminal",
     "user": "Utilisateur",
     "cost": "Coût",
@@ -278,7 +284,8 @@
     "noProfileRepo": "Pas encore de README de profil ?",
     "createOne": "Créez-en un en 30 secondes",
     "done": "Terminé",
-    "close": "Fermer"
+    "close": "Fermer",
+    "goToStep": "Aller à l'étape {step}"
   },
   "team": {
     "teamRankings": "Classement des équipes",
@@ -373,6 +380,9 @@
     "shareLink": "Partager le lien",
     "searchClawdboard": "Rechercher sur Clawdboard",
     "searchPlaceholder": "Rechercher par nom d'utilisateur ou nom...",
+    "searchUsersLabel": "Rechercher des utilisateurs par nom d'utilisateur ou nom",
+    "switchTeam": "Changer d'équipe",
+    "projectUrl": "URL du projet",
     "inviteAction": "Inviter",
     "invited": "Invité",
     "pending": "en attente",
@@ -452,6 +462,7 @@
     "backToLeaderboard": "\u2190 classement",
     "breadcrumbHome": "clawdboard",
     "breadcrumbStats": "stats",
+    "breadcrumbLabel": "Fil d'Ariane",
     "heroTitle": "Statistiques d'utilisation du codage IA",
     "heroDescription": "Données agrégées en temps réel de <strong>{totalUsers} développeurs</strong> qui suivent leur utilisation de codage IA sur <link>clawdboard</link>. Tous les chiffres de coût sont des estimations basées sur les tarifs publiés des tokens API — pas des factures réelles. Les données couvrent toute l'utilisation depuis janvier 2024.",
     "lastUpdated": "Dernière mise à jour : {lastUpdated}",
@@ -527,6 +538,7 @@
     "breadcrumbHome": "clawdboard",
     "breadcrumbStats": "stats",
     "breadcrumbTools": "outils",
+    "breadcrumbLabel": "Fil d'Ariane",
     "heroTitle": "Comparaison des outils de codage IA",
     "heroDescription": "Comparaison côte à côte de l'utilisation de {toolList} par <strong>{totalUsers} développeurs</strong> sur <link>clawdboard</link>. Tous les coûts sont estimés à partir des comptages de tokens et des tarifs API publiés.",
     "lastUpdated": "Dernière mise à jour : {lastUpdated}",
@@ -601,6 +613,7 @@
     "backToAllModels": "\u2190 tous les modèles",
     "breadcrumbHome": "clawdboard",
     "breadcrumbStats": "stats",
+    "breadcrumbLabel": "Fil d'Ariane",
     "heroTitle": "Statistiques d'utilisation de {modelName}",
     "heroDescription": "Données d'utilisation réelles de <strong>{modelName}</strong> par <strong>{userCount} développeurs</strong> sur <link>clawdboard</link>. {modelName} est {modelDescription}. Tous les coûts sont estimés à partir des comptages de tokens et des tarifs API {provider} publiés.",
     "lastUpdated": "Dernière mise à jour : {lastUpdated}",
