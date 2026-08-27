@@ -19,6 +19,7 @@ interface RecapStoriesProps {
 
 export function RecapStories({ recap, onClose }: RecapStoriesProps) {
   const tCommon = useTranslations("common");
+  const t = useTranslations("recaps");
   const data = recap.data as RecapData;
   const isEmptyState = data.stateTier === "empty";
 
@@ -95,8 +96,7 @@ export function RecapStories({ recap, onClose }: RecapStoriesProps) {
     else goForward();
   };
 
-  const periodLabel =
-    recap.type === "weekly" ? "Weekly Recap" : "Monthly Recap";
+  const periodLabel = recap.type === "weekly" ? t("weekly") : t("monthly");
 
   return createPortal(
     <div

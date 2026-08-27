@@ -190,7 +190,18 @@
     "nextRank": "Suivant : {title} ({xp} XP restants)",
     "maxRank": "Rang maximum atteint !",
     "keepCooking": "Continuez à cuisiner pour atteindre {title} !",
-    "highestRank": "Vous avez atteint le rang le plus élevé !"
+    "highestRank": "Vous avez atteint le rang le plus élevé !",
+    "groups": {
+      "spend": "Dépenses",
+      "streak": "Séries",
+      "rank": "Rang au classement",
+      "days-active": "Jours actifs",
+      "daily-spend": "Dépenses quotidiennes",
+      "daily-tokens": "Tokens quotidiens",
+      "monthly-spend": "Dépenses mensuelles",
+      "monthly-days": "Activité mensuelle",
+      "perfect-month": "Mois parfait"
+    }
   },
   "timeAgo": {
     "justNow": "à l'instant",
@@ -707,5 +718,31 @@
       "dismiss": "retourner au monde des mortels"
     },
     "shareText": "Jour {streak}. Le crabe a évolué en moi. 🦀 Série TRANSCENDANTE sur clawdboard — survivrez-vous à la mue ?"
+  },
+  "feedback": {
+    "button": "Feedback",
+    "title": "feedback",
+    "intro": "Le feedback va directement au propriétaire - généralement implémenté sous 48 heures.",
+    "messagePlaceholder": "Qu'avez-vous en tête ? Rapports de bugs, idées de fonctionnalités, ou juste un petit bonjour...",
+    "emailPlaceholder": "votre@email.com (optionnel, pour le suivi)",
+    "cancel": "Annuler",
+    "send": "Envoyer le feedback",
+    "sending": "Envoi...",
+    "success": "Merci ! Votre feedback a bien été reçu."
+  },
+  "recaps": {
+    "weekly": "Récap hebdomadaire",
+    "monthly": "Récap mensuel",
+    "bannerReady": "Votre <highlight>{label}</highlight> est prêt",
+    "hook": {
+      "dominated": "Vous avez dominé.",
+      "podium": "Vous êtes monté sur le podium.",
+      "top10": "Vous êtes entré dans le top 10.",
+      "climbed": "Vous avez gagné {count, plural, one {# place} other {# places}}.",
+      "reclaim": "Il est temps de reprendre votre place.",
+      "elite": "Top 10 %. Vous êtes dans l'élite.",
+      "default": "Voici comment vous vous êtes classé.",
+      "tapToContinue": "touchez pour continuer"
+    }
   }
 }

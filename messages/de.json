@@ -279,7 +279,18 @@
     "nextRank": "Nächster: {title} (noch {xp} XP)",
     "maxRank": "Höchster Rang erreicht!",
     "keepCooking": "Weiter kochen, um {title} zu erreichen!",
-    "highestRank": "Du hast den höchsten Rang erreicht!"
+    "highestRank": "Du hast den höchsten Rang erreicht!",
+    "groups": {
+      "spend": "Ausgaben",
+      "streak": "Serien",
+      "rank": "Ranglisten-Platz",
+      "days-active": "Aktive Tage",
+      "daily-spend": "Tägliche Ausgaben",
+      "daily-tokens": "Tägliche Tokens",
+      "monthly-spend": "Monatliche Ausgaben",
+      "monthly-days": "Monatliche Aktivität",
+      "perfect-month": "Perfekter Monat"
+    }
   },
   "timeAgo": {
     "justNow": "gerade eben",
@@ -707,5 +718,31 @@
       "dismiss": "zurück ins reich der sterblichen"
     },
     "shareText": "Tag {streak}. Die Krabbe ist zu mir evolviert. 🦀 TRANSZENDENTE Serie auf clawdboard — überlebst du die Häutung?"
+  },
+  "feedback": {
+    "button": "Feedback",
+    "title": "feedback",
+    "intro": "Feedback geht direkt an den Betreiber - wird in der Regel innerhalb von 48 Stunden umgesetzt.",
+    "messagePlaceholder": "Was liegt dir auf dem Herzen? Bug-Reports, Feature-Wünsche oder einfach nur Hallo sagen...",
+    "emailPlaceholder": "deine@email.com (optional, für Rückfragen)",
+    "cancel": "Abbrechen",
+    "send": "Feedback senden",
+    "sending": "Wird gesendet...",
+    "success": "Danke! Dein Feedback ist angekommen."
+  },
+  "recaps": {
+    "weekly": "Wochenrückblick",
+    "monthly": "Monatsrückblick",
+    "bannerReady": "Dein <highlight>{label}</highlight> ist bereit",
+    "hook": {
+      "dominated": "Du hast dominiert.",
+      "podium": "Du hast es aufs Podium geschafft.",
+      "top10": "Du hast die Top 10 geknackt.",
+      "climbed": "Du bist {count, plural, one {# Platz} other {# Plätze}} nach oben geklettert.",
+      "reclaim": "Zeit, dir deinen Platz zurückzuholen.",
+      "elite": "Top 10 %. Du gehörst zur Elite.",
+      "default": "So hast du abgeschnitten.",
+      "tapToContinue": "tippen, um fortzufahren"
+    }
   }
 }
