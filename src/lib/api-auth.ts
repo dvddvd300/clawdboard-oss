@@ -39,32 +39,14 @@ export async function authenticateApiToken(
     };
   }
 
-  // Look up by SHA-256 hash so the unique-index comparison never runs on
-  // the raw secret — a direct plaintext lookup leaks token prefixes through
-  // comparison timing.
-  const tokenHash = hashApiToken(token);
-  let [user] = await db
+  // Tokens are stored and looked up by SHA-256 hash, so the unique-index
+  // comparison never runs on the raw secret. Every row has a hash: new tokens
+  // get one at issuance, older ones via scripts/backfill-api-token-hash.mjs.
+  const [user] = await db
     .select()
     .from(users)
-    .where(eq(users.apiTokenHash, tokenHash))
+    .where(eq(users.apiTokenHash, hashApiToken(token)))
     .limit(1);
-
-  if (!user) {
-    // Legacy fallback: tokens issued before api_token_hash existed are only
-    // stored in plaintext. Look up directly and backfill the hash so the
-    // next request takes the hashed path.
-    [user] = await db
-      .select()
-      .from(users)
-      .where(eq(users.apiToken, token))
-      .limit(1);
-    if (user) {
-      await db
-        .update(users)
-        .set({ apiTokenHash: tokenHash })
-        .where(eq(users.id, user.id));
-    }
-  }
 
   if (!user) {
     return {

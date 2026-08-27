@@ -62,13 +62,15 @@ async function claimDevice(formData: FormData) {
     apiToken = Array.from(bytes)
       .map((b) => b.toString(16).padStart(2, "0"))
       .join("");
-
-    // Store the API token on the user record, with the hash auth uses
-    await db
-      .update(users)
-      .set({ apiToken, apiTokenHash: hashApiToken(apiToken) })
-      .where(eq(users.id, session.user.id));
   }
+
+  // Store the token with the hash auth looks it up by. Runs on the reuse
+  // path too, so a token issued before api_token_hash existed gets its hash
+  // on the next re-auth.
+  await db
+    .update(users)
+    .set({ apiToken, apiTokenHash: hashApiToken(apiToken) })
+    .where(eq(users.id, session.user.id));
 
   // Claim the device code
   await db
