@@ -19,7 +19,7 @@ clawdboard/
 
 DB schema is defined in Drizzle and pushed with `npm run db:push`; `drizzle.config.ts`
 sets `out: "./drizzle"` as the migration-generate target, but no migrations dir is
-committed (schema-push workflow). (Verified 2026-07-05.)
+committed (schema-push workflow).
 
 ## Tech Stack
 
